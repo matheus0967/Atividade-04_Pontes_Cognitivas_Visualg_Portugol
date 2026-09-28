@@ -1,0 +1,24 @@
+algoritmo "conversor_cambio"
+
+var
+   cotacao, dolares, valorBase, iof, total: real
+
+inicio
+
+   escreva("Digite a cotacao do dolar (R$): ")
+   leia(cotacao)
+
+   escreva("Quantos dolares voce deseja comprar? ")
+   leia(dolares)
+
+   valorBase <- cotacao * dolares
+   iof <- valorBase * 0.011
+   total <- valorBase + iof
+
+   escreval("")
+   escreval("--- COMPROVANTE DE CAMBIO ---")
+   escreval("Valor base em Reais: R$ ", valorBase:0:2)
+   escreval("Taxa de IOF (1.1%): R$ ", iof:0:2)
+   escreval("Total a pagar em Reais: R$ ", total:0:2)
+
+fimalgoritmo

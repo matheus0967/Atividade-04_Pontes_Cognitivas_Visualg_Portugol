@@ -1,0 +1,16 @@
+
+algoritmo "primeiro_programa"
+
+var
+   nome: caractere
+   preco: real
+
+inicio
+
+   nome <- "Teclado Mecanico"
+   preco <- 250.00
+
+   escreval("O produto ", nome, " custa R$ ", preco:0:2)
+
+fimalgoritmo
+```

@@ -1,0 +1,25 @@
+algoritmo "cadastro"
+
+var
+   nome: caractere
+   idade: inteiro
+   salario: real
+
+inicio
+
+   escreva("Digite seu nome: ")
+   leia(nome)
+
+   escreva("Digite sua idade: ")
+   leia(idade)
+
+   escreva("Digite seu salario: ")
+   leia(salario)
+
+   escreval("")
+   escreval("--- DADOS CADASTRADOS ---")
+   escreval("Nome: ", nome)
+   escreval("Idade: ", idade, " anos")
+   escreval("Salario: R$ ", salario:0:2)
+
+fimalgoritmo
